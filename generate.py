@@ -5,14 +5,14 @@ def number(min, max):
   for e in new_set:
     return int(e)
 
-from_list(liste):
+def from_list(liste):
   new_set = set()
   for i in range(len(liste)):
     new_set.add(str(i))
   for e in new_set:
     return liste[int(e)]
       
-rearrange(liste):
+def rearrange(liste):
   new_list = []
   new_set = set()
   for i in range(len(liste)):
